@@ -47,7 +47,7 @@ Option 2：使用 Pipenv：
 $ pipenv install --dev
 $ pipenv shell
 ```
-如果你还没有安装 Pipenv，那么可以在运行 `pipenv` 命令前通过 pip 安装（`pip install pipenv`）。
+如果你还没有安装 Pipenv，那么可以在运行 `pipenv` 命令前通过 pip 安装（`pip install pipenv`）。实测debian环境中一定要使用python3和python3-pip以及pip3安装的pipenv才能正常执行；
 
 ### 运行示例程序
 
